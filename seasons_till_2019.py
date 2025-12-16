@@ -16,7 +16,7 @@ print("УЛУЧШЕНИЕ ЧИТАЕМОСТИ ДАННЫХ И АНАЛИЗ СЕ
 print("=" * 70)
 
 # Загружаем очищенный датасет
-df = pd.read_csv('cleaned_bike_sharing_data.csv')
+df = pd.read_csv('2013-2019.csv')
 print(f"Загружено записей: {len(df):,}")
 print(f"Столбцов: {len(df.columns)}")
 
